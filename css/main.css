@@ -198,17 +198,15 @@ dl {
 .buy {
 	text-align: center;
 	overflow: hidden;
-	clear: both;
 }
 
 .buy p {
 	margin: 0;
-	padding: 0.5em;
 	font-size: 0.8em;
-	text-align: center;
 }
 
 .buy a {
+  margin: 2em;
   font-size: 0.8em;
 	font-family: 'Cinzel', serif;
 	text-decoration: none;
@@ -219,14 +217,14 @@ dl {
 
 .button-left {
 	float: left;
-	margin-left: 1em;
+	margin-left: 2em;
 	margin-top: 1em;
 	margin-bottom: 2em;
 }
 
 .button-right {
 	float: right;
-	margin-right: 1em;
+	margin-right: 2em;
 	margin-top: 1em;
 	margin-bottom: 2em;
 }
