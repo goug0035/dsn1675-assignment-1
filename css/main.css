@@ -1,0 +1,268 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+	font-family: 'Cinzel', serif;
+	color: black;
+	font-size: 0.75em;
+	margin-top: 1.2em;
+	margin-bottom: 1em;
+	display: inline-block;
+  align-items: center;
+}
+
+.logo {
+	float: left;
+	width: 1.5em;
+	margin-left: 1em;
+	margin-top: 0.8em;
+  margin-right: 2em;
+	display: inline-block;
+}
+
+.button {
+	font-family: 'Cinzel', serif;
+	float: right;
+	color: white;
+	font-size: 0.7em;
+	margin-right: 1em;
+	margin-top: 1em;
+	display: inline-block;
+	padding-left: 0.4em;
+	padding-right: 0.4em;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	background-color: black;
+}
+
+.button:hover {
+	color: black;
+	background-color: white;
+}
+
+body {
+	font-family: 'Open Sans', serif;
+	margin: 0;
+	padding: 0;
+}
+
+header nav li {
+  font-size: 25%;
+  text-decoration: none;
+	float: left;
+	margin: 0;
+	width: 25%;
+	text-align: center;
+}
+
+
+header nav {
+	float: left;
+	overflow: hidden;
+	width: 100%;
+  margin-left: 0;
+}
+
+header nav ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+header nav a {
+	color: white;
+  font-family: 'Cinzel', serif;
+  font-size: 3em;
+	text-decoration: none;
+	text-align: center;
+	text-decoration: none;
+	background-color: black;
+	display: block;
+	padding: 1em;
+}
+
+header nav a:hover {
+	color: #9e6100;
+}
+
+.banner {
+	position: absolute;
+	width: 100%;
+	margin: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+	text-align: center;
+	color: white;
+	opacity: 0.9;
+	padding: 0.5em;
+	margin-top: 19.5%;
+}
+
+.banner strong {
+	font-family: 'Cinzel', serif;
+	font-size: 1em;
+	line-height: 1em;
+}
+
+.banner p {
+	font-family: 'Open Sans', serif;
+	font-size: 0.7em;
+	color: #9e6100;
+	margin-bottom: 0.2em;
+}
+
+.banner a {
+	text-decoration: none;
+	color: white;
+	font-size: 0.7em;
+	text-transform: uppercase;
+}
+
+.banner a:hover {
+	color: #9e6100;
+}
+
+.wonders {
+	width: 100%;
+}
+
+.seven-wonders a {
+  display: block;
+
+}
+
+.seven-wonders dt dd {
+  display: inline-block;
+}
+
+dl {
+  font-size: 0.8em;
+  margin-left: 1.5em;
+}
+
+h2 {
+	font-family: 'Cinzel', serif;
+	font-size: 1.5em;
+	color: black;
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 0;
+}
+
+.wonders-info {
+	width: 100%;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-top: 2em;
+	clear: both;
+}
+
+h3 {
+	font-family: 'Cinzel', serif;
+	font-size: 0.8em;
+	margin-left: 1em;
+	text-transform: uppercase;
+	color: #9e6100;
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+}
+
+.learn-more {
+	font-size: 0.7em;
+  font-family: 'Cinzel', serif;
+	color: black;
+	margin-left: 1em;
+	margin-top: 1em;
+	background-color: #413f0c;
+	padding: 0.5em;
+	opacity: 0.5;
+	float: left;
+	clear: both;
+}
+
+.learn-more:hover {
+	color: #413f0c;
+	background-color: black;
+}
+
+dl {
+  font-size: 0.8em;
+  margin-left: 1.5em;
+}
+
+.buy {
+	text-align: center;
+	overflow: hidden;
+	clear: both;
+}
+
+.buy p {
+	margin: 0;
+	padding: 0.5em;
+	font-size: 0.8em;
+	text-align: center;
+}
+
+.buy a {
+  font-size: 0.8em;
+	font-family: 'Cinzel', serif;
+	text-decoration: none;
+	color: white;
+	background-color: black;
+	padding: 1em;
+}
+
+.button-left {
+	float: left;
+	margin-left: 1em;
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
+
+.button-right {
+	float: right;
+	margin-right: 1em;
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
+
+.buy a:hover {
+  color: black;
+	background-color: white;
+}
+
+.week-events li {
+  text-align: left;
+  margin-left: 1em;
+  font-size: 0.6em;
+}
+
+footer {
+	padding: 1em;
+	background-color: black;
+	color: white;
+	font-size: 0.7em;
+}
+
+footer p {
+	margin: 0;
+}
+
+footer a {
+  margin: 0;
+  display: block;
+	text-decoration: none;
+	color: white;
+}
+
+footer ul {
+  display: block;
+	padding: 0;
+	margin: 0;
+	margin-top: 1em;
+}
