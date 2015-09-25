@@ -77,7 +77,6 @@ header nav {
   background-color: black;
 	overflow: hidden;
 	width: 100%;
-  margin-left: 0;
 }
 
 header nav ul {
@@ -160,6 +159,7 @@ header nav a:hover {
 .banner-2 a:hover {
 	color: #9e6100;
 }
+
 .wonders {
 	width: 100%;
 }
@@ -189,7 +189,7 @@ h2 {
 }
 
 .wonders-info {
-	width: 100%;
+  width: 90%;
 	margin-left: 1em;
 	margin-right: 1em;
 	margin-top: 2em;
@@ -207,14 +207,13 @@ h3 {
 }
 
 .learn-more {
-  display: inline-block;
+  display: block;
   padding: 0.5em;
-  margin: 0.5em;
+  margin: 1em;
   background-color: black;
   color: white;
   text-decoration: none;
   text-align: center;
-  width: 100%;
 }
 
 .learn-more:hover {
@@ -234,9 +233,10 @@ dl {
 .tickets a {
   font-family: 'Cinzel', serif;
   font-size: 0.9rem;
-  display: inline-block;
+  display: block;
+  width: 38%;
   padding: 0.5em;
-  margin: 1em;
+  margin: .5em 2em 2em 2em;
   background-color: black;
   color: white;
   text-decoration: none;
@@ -285,4 +285,46 @@ footer ul {
 	padding: 0;
 	margin: 0;
 	margin-top: 1em;
+}
+
+@media only screen and (min-width: 40em) {
+
+  .info {
+    display: inline-block;
+    width: 50%;
+    overflow: hidden;
+    float: left;
+  }
+
+  .wonders-info {
+    height: 18em;
+  }
+
+  .tickets {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 65em) {
+
+  .info {
+    display: inline-block;
+    width: 33.33%;
+    overflow: hidden;
+    float: left;
+  }
+
+  h2 {
+    font-size: 2.3rem;
+  }
+
+  h3 {
+    font-size: 1em;
+  }
+
+  .week-events ul li {
+    display: inline-block;
+    width: 25%;
+    float: left;
+  }
 }
