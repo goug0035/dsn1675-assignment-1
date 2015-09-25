@@ -10,6 +10,8 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+
+  font-size: 100%;
   margin: 0;
 }
 
@@ -227,6 +229,11 @@ dl {
   margin-left: 1.5em;
 }
 
+.tickets {
+  max-width: 35em;
+  margin: 0 auto;
+}
+
 .tickets p {
   margin: 1em;
 }
@@ -248,9 +255,6 @@ dl {
   float: left;
 }
 
-.button-right {
-  float: right;
-}
 
 .tickets a:hover {
   color: black;
@@ -290,6 +294,23 @@ footer ul {
 
 @media only screen and (min-width: 40em) {
 
+  html {
+    font-size: 110%;
+  }
+
+  .tickets {
+    display: block;
+    float: left;
+    width: 50%;
+    max-width: 35em;
+  }
+
+  .tickets a {
+    font-size: 0.7rem;
+    width: 30%;
+    padding: 1em;
+  }
+
   .info {
     display: inline-block;
     width: 50%;
@@ -300,10 +321,30 @@ footer ul {
   .wonders-info {
     height: 18em;
   }
-  
+
+  .tickets-both {
+    clear: both;
+    overflow: hidden;
+  }
+
+ .week-events {
+
+}
+
+ .days {
+   display: block;
+   float: left;
+   width: 50%;
+ }
+
 }
 
 @media only screen and (min-width: 65em) {
+
+  html {
+   font-size: 120%
+  }
+
 
   .info {
     display: inline-block;
@@ -312,17 +353,8 @@ footer ul {
     float: left;
   }
 
-  h2 {
-    font-size: 2.3rem;
+  .atlantis {
+    
   }
 
-  h3 {
-    font-size: 1em;
-  }
-
-  .week-events ul li {
-    display: inline-block;
-    width: 25%;
-    float: left;
-  }
 }
